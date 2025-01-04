@@ -25,7 +25,7 @@ blockquote {
     height: 293px;
   }
 
-  .header__menu{
+  .header__menu {
     font-size: 18px;
     padding-top: 133px;
     line-height: 21.3px;
@@ -131,7 +131,7 @@ top: 668px;
 word-spacing: 18.5px;
 }
 
-.lots{
+.lots {
     margin: 24px;
 }
 
@@ -215,13 +215,14 @@ text-decoration-thickness: 1px;
     background-position: top;
 }
 
-.card_type_book{
+.card_type_book {
     background-image: url(/images/card-lot-02.jpg);
     background-size: cover;
     background-position: top;
 }
 
-.card_type_picture {background-image: url(/images/card-lot-03.jpg);
+.card_type_picture {
+    background-image: url(/images/card-lot-03.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -233,7 +234,7 @@ line-height: 120%;
 color: #FFFFFF;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness:1px;
@@ -250,7 +251,7 @@ margin: 120px;
 margin-left: 24px;
 }
 
-.about_text{
+.about_text {
 padding-left: 46px;
 width: 693px;
 height: 449px;
@@ -265,7 +266,7 @@ border-radius: 150px;
 margin: 34px 0 0 47px;
 }
 
-.about__logo-image{
+.about__logo-image {
 text-align: center;
 position: relative;
 width: 148px;
@@ -291,7 +292,7 @@ white-space: nowrap;
    width: 688px;
 }
 
-.auction_info{
+.auction_info {
 padding-left: 46px;
 width: 693px;
 height: 449px;
@@ -304,11 +305,11 @@ height: 449px;
     margin-top: 326px;
 }
 
-.footer__menu{
+.footer__menu {
   text-align: center;
 }
 
-.footer__links-list{
+.footer__links-list {
 list-style-type: none;
 }
 
@@ -322,12 +323,12 @@ list-style-type: none;
    text-decoration-thickness:1px;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-align: center;
     text-decoration: none;
 }
 
-.footer__menu-list{
+.footer__menu-list {
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
     font-style: normal;
@@ -336,7 +337,7 @@ list-style-type: none;
     line-height: 24px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
 width: 48px;
 height: 48px;
 flex: none;
@@ -344,7 +345,7 @@ order: 0;
 flex-grow: 0;
 }
 
-.footer__social-list{
+.footer__social-list {
 display: flex;
 gap: 48px;
 height: 48;
