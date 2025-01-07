@@ -60,11 +60,11 @@ header {
     color: #fff;
     font-weight: 700;
     font-size: 100px;
-    padding: 165px 50px;
     line-height: 115px;
     position: relative;
     z-index: 1;
-
+    padding-top: 166px;
+    padding-left: 50px;
  }
 
 .accent-span {
@@ -74,8 +74,8 @@ header {
 
 .aligned-text_center {
     text-align: center;
-    padding-left: 29px;
     margin: 20px;
+    padding-right: 20px;
  }
 
 .aligned-text_right {
@@ -93,12 +93,13 @@ header {
     min-width: 256px;
     min-height: 51px;
     border: 1px solid #FFFFFF;
-    margin: 628px 50px 50px 794px;
     font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
+    margin-right: 50px;
 }
 
 .cover__description {
+    display:;
     color: #ffffff;
     position: relative;
     z-index: 2;
@@ -119,6 +120,8 @@ p {
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
+    margin-top: 117px;
+    margin-left: 50px;
 }
 
 .lots {
