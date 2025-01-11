@@ -1,7 +1,6 @@
 header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    min-height: 293px;
   }
 
 .header__menu {
@@ -31,10 +30,13 @@ header {
 
 .address__phone {
     font-style: normal;
+    padding: 95px 50px 100px 186px;
+}
+
+.address {
     font-size: 18px;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
-    padding: 95px 50px 100px 186px;
     line-height: 24.5px;
 }
 
@@ -50,6 +52,7 @@ header {
     position: relative;
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: center;
     min-height: 757px;
  }
 
@@ -84,7 +87,6 @@ header {
 .bet-button {
     color: #ffffff;
     background-color: transparent;
-    float: right;
     font-size: 22px;
     font-weight: 400;
     line-height: 27px;
@@ -105,12 +107,6 @@ header {
     position: relative;
     z-index: 2;
     margin-top: 105px;
-}
-
-p {
-    font-size: 20px;
-    line-height: 120%;
-    color: #FFFFFF;
 }
 
 .cover__description-text {
@@ -154,7 +150,7 @@ p {
     gap: 25px;
     list-style: none;
     padding-top: 17px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .lots__card-list-item {
@@ -173,10 +169,12 @@ p {
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-thickness: 1px;
+    z-index: 2;
 }
 
 .overlay {
     position: absolute;
+    left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
@@ -201,6 +199,7 @@ p {
     font-size: 20px;
     line-height: 120%;
     color: #FFFFFF;
+    z-index: 2;
 }
 
 .lots__look-more-link {
@@ -208,7 +207,10 @@ p {
     text-underline-offset: 5px;
     text-decoration-thickness: 1px;
     color: #000000;
-    padding: 30px 102px 0 40px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
 }
 
 .about {
@@ -221,7 +223,8 @@ p {
 }
 
 .about__logo {
-    display: grid;
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 240px;
     height: 240px;
@@ -233,7 +236,6 @@ p {
 .about__logo-image {
     width: 148px;
     height: 114px;
-    margin-left: 47px;
 }
 
 .about__title {
@@ -250,31 +252,28 @@ p {
    color: #000000;
    margin-bottom: 24px;
    width: 688px;
+   font-size: 20px;
+   line-height: 1.2;
 }
 
-.auction__info {
+.about__info {
     padding-left: 46px;
-    width: 693px;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: start;
+    text-align: start;
+    padding-bottom: 82px;
 }
 
 .footer__menu {
     text-align: center;
 }
 
-.menu__list {
-    font-size: 18px;
+.address__list {
     padding-left: 50px;
-    height: 265.97px;
     font-style: normal;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 1px;
-    line-height: 24.5px;
     padding-top: 35px;
 }
 
@@ -292,7 +291,6 @@ p {
 }
 
 .footer__menu-link_active {
-    text-align: center;
     text-decoration: none;
 }
 
@@ -307,10 +305,6 @@ p {
 
 .footer__social-icon {
     width: 48px;
-    height: 48px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .footer__social-list {
